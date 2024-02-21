@@ -1,7 +1,7 @@
 # LocalTwentyFour
 Java spring boot backend for a train scheduling system.
 ===============================================================================================
-#url to add train(post request)  ->  localhost:8080/addTrain     
+# 1)url to add train(post request)  ->  localhost:8080/addTrain     
 --------------------------------------------------------------------------------------------------
 payload ->   {
 "number" : "20664",
@@ -31,7 +31,7 @@ output =>   {
 ===========================================================================================================
 
 
-2) url to remove train(delete request)  -> localhost:8080/removeTrain
+# 2) url to remove train(delete request)  -> localhost:8080/removeTrain
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -40,7 +40,7 @@ output =>   {
 
 ==========================================================================================================
 
-3) url to update train(post request)->   localhost:8080/updateTrain/{number}
+# 3) url to update train(post request)->   localhost:8080/updateTrain/{number}
 -----------------------------------------------------------------------------------------------------------
    Description => if train with given number exists it wil update the given data and if train is not  present it  will return null  object with train with given number not found 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -52,7 +52,7 @@ payload ->
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ====================================================================================================================================================================================
-4)  url to find stations between source statuion  and destination station ->  http://localhost:8080/trains-between-stations
+#4)  url to find stations between source statuion  and destination station ->  http://localhost:8080/trains-between-stations
 
 -----------------------------------------------------------------------------------------------------------------------------
 payload -> {
