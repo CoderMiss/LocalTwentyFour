@@ -1,5 +1,12 @@
 # LocalTwentyFour
 Java spring boot backend for a train scheduling system.
+================================================================================================
+
+I have used mysql database 
+To connect to database on your local machine please edit application.properties file , create database with  same name i have created it  with name ===> "localtwentyfour"  
+and change username and password in same file as per your machines mysql settings
+
+
 ===============================================================================================
 # 1)url to add train(post request)  ->  localhost:8080/addTrain     
 --------------------------------------------------------------------------------------------------
